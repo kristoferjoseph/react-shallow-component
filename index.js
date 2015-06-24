@@ -1,5 +1,5 @@
 import React from 'react/addons'
-import TestUtils from 'react/addons/TestUtils'
+import TestUtils from 'react/lib/ReactTestUtils.js'
 
 function createComponent(component, props, ...children) {
   let shallow = TestUtils.createRenderer()
