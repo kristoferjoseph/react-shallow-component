@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 import React from 'react'
-import createComponent from './source'
+import createComponent from './'
 import TestComponent from './test-component'
 
 describe('Shallow Component', function() {
