@@ -21660,8 +21660,8 @@ function createComponent(component, props) {
     children[_key - 2] = arguments[_key];
   }
 
-  var childen = children.length > 1 ? children : children[0];
-  shallow.render(_reactAddons2['default'].createElement(component, props, children));
+  var kids = children.length > 1 ? children : children[0];
+  shallow.render(_reactAddons2['default'].createElement(component, props, kids));
   return shallow.getRenderOutput();
 }
 
