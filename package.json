@@ -2,10 +2,10 @@
   "name": "react-shallow-component",
   "version": "1.0.1",
   "description": "Test helper for using shallow component rendering",
-  "main": "index.js",
+  "main": "dist.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register",
-    "dist": "browserify index.js -t babelify -o dist.js"
+    "dist": "babel --modules common index.js > dist.js"
   },
   "repository": {
     "type": "git",
