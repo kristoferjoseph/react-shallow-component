@@ -7,6 +7,10 @@
     "test": "mocha --compilers js:babel/register",
     "dist": "browserify source.js -t babelify -o index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristoferjoseph/react-shallow-component.git"
+  },
   "keywords": [
     "react",
     "test",
