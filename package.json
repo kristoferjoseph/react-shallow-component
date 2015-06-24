@@ -1,6 +1,6 @@
 {
   "name": "react-shallow-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Test helper for using shallow component rendering",
   "main": "dist.js",
   "scripts": {
