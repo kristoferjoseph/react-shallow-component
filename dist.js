@@ -10,12 +10,10 @@ var _reactAddons = require('react/addons');
 
 var _reactAddons2 = _interopRequireDefault(_reactAddons);
 
-var _reactLibReactTestUtilsJs = require('react/lib/ReactTestUtils.js');
-
-var _reactLibReactTestUtilsJs2 = _interopRequireDefault(_reactLibReactTestUtilsJs);
+var TestUtils = _reactAddons2['default'].addons.TestUtils;
 
 function createComponent(component, props) {
-  var shallow = _reactLibReactTestUtilsJs2['default'].createRenderer();
+  var shallow = TestUtils.createRenderer();
 
   for (var _len = arguments.length, children = Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {
     children[_key - 2] = arguments[_key];
